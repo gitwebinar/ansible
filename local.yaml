@@ -1,0 +1,6 @@
+---
+
+- hosts: localhost
+  tasks:
+    - name: log1
+      file: path=/home/administrator/samp.txt state=touch
