@@ -3,4 +3,4 @@
 - hosts: localhost
   tasks:
     - name: log1
-      command: logger bawalianjali
+      file: path=/home/administrator/samp.txt state=touch
