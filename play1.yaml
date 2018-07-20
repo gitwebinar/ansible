@@ -1,0 +1,6 @@
+---
+
+- hosts: localhost
+  tasks:
+    - name: log1
+      command: logger bawalianjali
